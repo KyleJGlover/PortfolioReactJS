@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './personalProjects.css';
 import CoffeeSlideshow from './SlideShows/CoffeeSlideshow';
 import MyQuizzesSlideShow from './SlideShows/MyQuizzesSlideShow';

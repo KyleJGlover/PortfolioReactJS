@@ -4,6 +4,7 @@ import linkedin from '../../images/linkedin_icon.png';
 import github from '../../images/github_icon.png';
 
 function Main() {
+
     return (
         <div className='section-two-container'>
             <section className='s2'>
@@ -28,16 +29,16 @@ function Main() {
                             
                                 {/*Facebook Icon*/}
                                 <a target='_blank' rel='noreferrer' href='https://www.facebook.com/kyle.glover.92'>
-                                    <img className='social-media-icons' src={facebook}></img>
+                                    <img className='social-media-icons' alt='' src={facebook}></img>
                                 </a>
 
                                 {/*LinkedIn Icon*/}
                                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/kyle-glover-17041982/'>
-                                    <img className='social-media-icons' src={linkedin}></img>
+                                    <img className='social-media-icons' alt='' src={linkedin}></img>
                                 </a>
                                 {/*Github Icon*/}
-                                <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/kyle-glover-17041982/'>
-                                    <img className='social-media-icons' src={github}></img>
+                                <a target='_blank' rel='noreferrer' href='https://github.com/KyleJGlover'>
+                                    <img className='social-media-icons' alt='' src={github}></img>
                                 </a>
                             </div>
 
@@ -49,7 +50,7 @@ function Main() {
 
                             <p>
                                 Looking for fullstack developer oppurtunities to learn and grow. 
-                                <a target='_blank' rel='noreferrer' href={resume}>Download Resume</a>
+                                <a target='_blank' rel='noreferrer' href={resume}> Download Resume</a>
                             </p>
 
                             <div id='skills'>    

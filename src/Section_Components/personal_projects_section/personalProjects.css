@@ -29,7 +29,11 @@
 
 .post-intro{
   color: #4b5156;
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.post-intro-links{
+  font-size: 13px;
 }
 
 .post-preview{
@@ -49,4 +53,12 @@
   transition-duration: 1s;
   transform: scale(1);
   object-fit: cover;
+}
+
+.left-arrow{
+  color: var(--prevNextbuttonColor);
+}
+
+.right-arrow{
+  color: var(--prevNextbuttonColor);
 }

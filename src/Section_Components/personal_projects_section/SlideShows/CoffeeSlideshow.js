@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { projectData } from '../ProjectData';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import Coffee_Break_Powerpoint from '../../../pdf_files/Coffee_Break.pdf'
 
 
 
@@ -60,7 +61,9 @@ function CoffeeSlideshow() {
                 <div className='post-preview'>
                     <h6 className='post-title'>{project.title}</h6>
                     <p className='post-intro'>{project.description} </p>
-                    <p><a target='_blank' rel='noreferrer' href={project.github}>Github</a></p>
+                    <p className='post-intro-links'><a target='_blank' rel='noreferrer' href={project.github}>Github</a><br/>
+                    <a target='_blank' rel='noreferrer' href={Coffee_Break_Powerpoint}>Peresentation</a>
+                    </p>
                 </div>
             </div>
         </div>
