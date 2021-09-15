@@ -1,0 +1,18 @@
+:root{
+    --mainColor:#606B56;
+    --secondaryColor:#515a48;
+  
+    --borderColor:#164D56;
+    --borderColorSkills: white;
+  
+    --mainText:#fff;
+    --secondaryText: #eeeeee;   
+  
+    --themeDotBorder: #fff;
+  
+    --previewBackground: #21365a;
+    --previewShadow: #192841;
+  
+    --buttonColor:#21365a;
+    --prevNextbuttonColor:white;
+}

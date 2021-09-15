@@ -1,0 +1,73 @@
+:root{
+  --mainColor:#eaeaea;
+  --secondaryColor:#fff;
+
+  --borderColor:#c1c1c1;
+  --borderColorSkills: #24292e;
+
+  --mainText:black;
+  --secondaryText: #4b5156;   
+
+  --themeDotBorder: #24292e;
+
+  --previewBackground: #E5D3B3;
+  --previewShadow: #f0ead6;
+
+  --buttonColor:black;
+  --prevNextbuttonColor:black;
+}
+
+  html, body {
+    padding:0;
+    margin:0;
+  }
+
+  body *{
+    transition: 0.8s;
+  }
+  
+  h1, h2, h3, h4, h5, h6, strong{
+    color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  p, li, span, label, input, textarea{
+    color: var(--secondaryText);
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #17a2b8;
+  }
+  
+  ul{
+    list-style: none;
+    
+  }
+  
+  .about-ul{
+    margin:0px;
+    padding:0px 0px 20px 0px;
+  }
+  
+  h1{ font-size: 56px;}
+  h2{ font-size: 36px;}
+  h3{ font-size: 28px;}
+  h4{ font-size: 24px;}
+  h5{ font-size: 20px;}
+  h6{ font-size: 16px;}
+  
+  .s1{
+    background-color: var(--mainColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+  }
+  
+  .s2{
+    background-color: var(--secondaryColor);
+    border-bottom: 1px solid  var(--borderColor);
+    overflow: auto;
+  }
