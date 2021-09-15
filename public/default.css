@@ -30,6 +30,7 @@
     color: var(--mainText);
     font-family: 'Russo One', sans-serif;
     font-weight: 500;
+    margin-bottom: 20px;
   }
   
   p, li, span, label, input, textarea{

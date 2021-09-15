@@ -21,7 +21,8 @@ export const projectData = [
          MySQL database. Stores and displays user constructed Coffee drinks, allowing users to manage \
          and create group orders for coffee drinks. For this Project documentation was written for the\
           OCD, SRS, STP, SDD, and User Manual was developed by my team.",
-      github:"https://github.com/KyleJGlover/CoffeeBreakApp/tree/main"
+      github:"https://github.com/KyleJGlover/CoffeeBreakApp/tree/main",
+      API: "https://github.com/KyleJGlover/Coffee_Break_API"
     },
     {
       image:[Quiz_Login, Quiz_Registration, Quiz_Main, Quiz_Quiz],

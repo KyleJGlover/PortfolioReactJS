@@ -7,7 +7,7 @@ function contect_me() {
         <div className="section-four-container">
             <div className="s2">
                 <div className="main-container">
-                    <h3 style={{textAlign: 'center'}}>Get In Touch</h3>
+                    <h3 style={{textAlign: 'center'}}>Contact Me</h3>
 
                     <form id="contact-form">
                         <label>Name</label>

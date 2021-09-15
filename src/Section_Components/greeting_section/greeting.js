@@ -1,4 +1,5 @@
 import profilePhoto from '../../images/ProfilePicture.jpg';
+import resume from '../../pdf_files/Resume.pdf';
 
     var theme = localStorage.getItem('theme')
 
@@ -46,7 +47,7 @@ function Main() {
                                 <div id='dot-3' className='browser-dot'></div>
                             </div>
                             <ul id='navigation'>
-                                <li><a href='/'>Contact</a></li>
+                                <li><a target='_blank' rel='noreferrer' href={resume}>Download Resume</a></li>
                             </ul>
 
                         </div>
@@ -95,8 +96,8 @@ function Main() {
                                 <div id='preview'>
                                     <div id='corner-tl' className='corner'></div>
                                     <div id='corner-tr' className='corner'></div>
-                                    <h3>What I want to do.</h3>
-                                    <p>I have recently finished my MS in Computer Science!</p>
+                                    <h3>Current Activities</h3>
+                                    <p>I am activily looking for new oppurtunies as a Software Engineer!</p>
                                     <div id='corner-bl' className='corner'></div>
                                     <div id='corner-br' className='corner'></div>
                                 </div>
