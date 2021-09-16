@@ -1,5 +1,5 @@
 // Coffee Break Images
-import Login_Registration from '../../images/Slideshow_images/Coffee_Break_images/Login_Registration_Coffee_Break.png';
+import Coffee_Login from '../../images/Slideshow_images/Coffee_Break_images/Login_Registration_Coffee_Break.png';
 import Drink_Selection from '../../images/Slideshow_images/Coffee_Break_images/Drink_Selection_Coffee_Break.png';
 import Group_Order from '../../images/Slideshow_images/Coffee_Break_images/Group_Order_Coffee_Order.png';
 import Order_Selection from '../../images/Slideshow_images/Coffee_Break_images/Order_Selection_Coffee_Break.png';
@@ -14,7 +14,7 @@ import Quiz_Quiz from '../../images/Slideshow_images/MyQuizzes_images/Quiz.png';
 
 export const projectData = [
     {
-      image:[Login_Registration, Drink_Selection, Group_Order, Order_Selection, Mapping],
+      image:[Coffee_Login, Drink_Selection, Group_Order, Order_Selection, Mapping],
       title: "Coffee Break",
       description: "An iOS application GUI written in Swift UI. Restful Web API written in python using\
        the flask framework and using the Object relational Mapper SQLAlchemy created and stored data to\
