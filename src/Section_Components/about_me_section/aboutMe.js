@@ -45,9 +45,8 @@ function Main() {
 
                             
                             <h4>Current Project</h4>
-                            <p>
-                                Looking for fullstack developer opportunities to learn and grow. Currently finishing up a
-                                Udemy course applying Docker containers for creating microservices.
+                            <p> 
+                                Currently finishing up a Udemy course applying Docker containers for creating microservices.
                                 Controlled by Kubernetes, project coming soon!
                             </p>
                             <h4>Skills</h4>
