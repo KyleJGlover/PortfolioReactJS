@@ -97,7 +97,7 @@ function Main() {
                                     <div id='corner-tl' className='corner'></div>
                                     <div id='corner-tr' className='corner'></div>
                                     <h3>Current Activities</h3>
-                                    <p>I am activily looking for new oppurtunies as a Software Engineer!</p>
+                                    <p>I am activily looking for new oppurtunities as a Software Engineer!</p>
                                     <div id='corner-bl' className='corner'></div>
                                     <div id='corner-br' className='corner'></div>
                                 </div>
