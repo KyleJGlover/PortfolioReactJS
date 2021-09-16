@@ -24,7 +24,7 @@ function Main() {
                                 I have spent the last three years working in both clinical and pharmaceutical laboratories,
                                 learning, and performing solution prep and analyzing results. I have worked in large and small teams 
                                 giving me experience with working in a team environment. My proudest accomplishment was helping build the COVID testing 
-                                laboratory at Color as one of its most respected clinical laboratory associates during one the worst pandemics in our lifetime.
+                                laboratory at Color as one of its most respected clinical laboratory associate II during one the worst pandemics in my lifetime.
                             </p> 
                             <h5>Why the Switch?</h5>                
                             <p>
@@ -32,7 +32,7 @@ function Main() {
                                 Leading me to pursue community college classes in computer science while I worked full time. 
                                 I fell in love with the challenges and process of developing solutions to problems in software. 
                                 This sparked my passion for software development and a master’s degree in Computer Science. My 
-                                determination to provide quality code while learning as much as I can has been with me since the day, 
+                                determination to provide quality code while learning as much as I can has been with me since the day 
                                 I decided to work towards being a software engineer two years ago. 
                             </p> 
 
@@ -46,7 +46,7 @@ function Main() {
                             
                             <h4>Current Project</h4>
                             <p>
-                                Looking for fullstack developer oppurtunities to learn and grow. Currently finishing up a
+                                Looking for fullstack developer opportunities to learn and grow. Currently finishing up a
                                 Udemy course applying Docker containers for creating microservices.
                                 Controlled by Kubernetes, project coming soon!
                             </p>
