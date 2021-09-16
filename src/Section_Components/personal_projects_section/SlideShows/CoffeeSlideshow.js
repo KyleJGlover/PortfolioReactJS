@@ -63,7 +63,8 @@ function CoffeeSlideshow() {
                 <div className='post-preview'>
                     <h6 className='post-title'>{project.title}</h6>
                     <p className='post-intro'>{project.description} </p>
-                    <p className='post-intro-links'><a target='_blank' rel='noreferrer' href={Closer_Look}>Closer Look</a> or <a target='_blank' rel='noreferrer' href={Coffee_Break_Powerpoint}>More Information</a><br/>
+                    <p className='post-intro-links'><a target='_blank' rel='noreferrer' href={Closer_Look}>Closer Look</a><br/>
+                    <a target='_blank' rel='noreferrer' href={Coffee_Break_Powerpoint}>More Information</a><br/>
                     <a target='_blank' rel='noreferrer' href={project.github}>Github</a><br/>
                     <a target='_blank' rel='noreferrer' href={project.API}>Github for API</a>
                     

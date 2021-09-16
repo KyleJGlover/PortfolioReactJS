@@ -60,8 +60,10 @@ function MyQuizzesSlideShow() {
                 <div className='post-preview'>
                     <h6 className='post-title'>{project.title}</h6>
                     <p className='post-intro'>{project.description} </p>
-                    <p className='post-intro-links'><a target='_blank' rel='noreferrer' href={project.github}>Github</a><br></br>
-                    <a target='_blank' rel='noreferrer' href={Closer_Look}>Closer Look</a></p>
+                    <p className='post-intro-links'>
+                        <a target='_blank' rel='noreferrer' href={Closer_Look}>Closer Look</a><br/>
+                        <a target='_blank' rel='noreferrer' href={project.github}>Github</a>
+                    </p>
                 </div>
             </div>
         </div>
