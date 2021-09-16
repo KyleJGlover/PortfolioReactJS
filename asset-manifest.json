@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e22fdb1f.chunk.css",
-    "main.js": "/static/js/main.5fec1297.chunk.js",
-    "main.js.map": "/static/js/main.5fec1297.chunk.js.map",
+    "main.css": "/static/css/main.e6a4a983.chunk.css",
+    "main.js": "/static/js/main.5de406e3.chunk.js",
+    "main.js.map": "/static/js/main.5de406e3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.931e61bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.931e61bc.js.map",
     "static/js/2.8f8b66e5.chunk.js": "/static/js/2.8f8b66e5.chunk.js",
     "static/js/2.8f8b66e5.chunk.js.map": "/static/js/2.8f8b66e5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e22fdb1f.chunk.css.map": "/static/css/main.e22fdb1f.chunk.css.map",
+    "static/css/main.e6a4a983.chunk.css.map": "/static/css/main.e6a4a983.chunk.css.map",
     "static/js/2.8f8b66e5.chunk.js.LICENSE.txt": "/static/js/2.8f8b66e5.chunk.js.LICENSE.txt",
-    "static/media/Coffee_Break.f9a46146.pdf": "/static/media/Coffee_Break.f9a46146.pdf",
+    "static/media/Coffee_Break.a1f721a2.pdf": "/static/media/Coffee_Break.a1f721a2.pdf",
+    "static/media/Coffee_Break_CloserLook.c3d55ce2.pdf": "/static/media/Coffee_Break_CloserLook.c3d55ce2.pdf",
     "static/media/Drink_Selection_Coffee_Break.4e42de03.png": "/static/media/Drink_Selection_Coffee_Break.4e42de03.png",
     "static/media/Group_Order_Coffee_Order.1cc657a5.png": "/static/media/Group_Order_Coffee_Order.1cc657a5.png",
     "static/media/Login.169cea33.png": "/static/media/Login.169cea33.png",
     "static/media/Login_Registration_Coffee_Break.2785b548.png": "/static/media/Login_Registration_Coffee_Break.2785b548.png",
     "static/media/Main.4fe7d833.png": "/static/media/Main.4fe7d833.png",
     "static/media/Mapping_Coffee_Break.c371171a.png": "/static/media/Mapping_Coffee_Break.c371171a.png",
+    "static/media/MyQuizzes_CloserLook.ece0a694.pdf": "/static/media/MyQuizzes_CloserLook.ece0a694.pdf",
     "static/media/Order_Selection_Coffee_Break.84af1c1c.png": "/static/media/Order_Selection_Coffee_Break.84af1c1c.png",
     "static/media/ProfilePicture.4ac53564.jpg": "/static/media/ProfilePicture.4ac53564.jpg",
     "static/media/Quiz.6b4fb8dc.png": "/static/media/Quiz.6b4fb8dc.png",
@@ -29,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.931e61bc.js",
     "static/js/2.8f8b66e5.chunk.js",
-    "static/css/main.e22fdb1f.chunk.css",
-    "static/js/main.5fec1297.chunk.js"
+    "static/css/main.e6a4a983.chunk.css",
+    "static/js/main.5de406e3.chunk.js"
   ]
 }
