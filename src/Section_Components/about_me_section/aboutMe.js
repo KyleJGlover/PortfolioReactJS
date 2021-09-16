@@ -24,7 +24,7 @@ function Main() {
                                 I have spent the last three years working in both clinical and pharmaceutical laboratories,
                                 learning, and performing solution prep and analyzing results. I have worked in large and small teams 
                                 giving me experience with working in a team environment. My proudest accomplishment was helping build the COVID testing 
-                                laboratory at Color as one of its most respected clinical laboratory associate II during one the worst pandemics in my lifetime.
+                                laboratory at Color as one of its most respected clinical laboratory associate II during one of the worst pandemics in my lifetime.
                             </p> 
                             <h5>Why the Switch?</h5>                
                             <p>
