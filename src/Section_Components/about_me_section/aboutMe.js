@@ -61,6 +61,7 @@ function Main() {
                                     <li>PHP</li>
                                     <li>CSS</li>
                                     <li>Python</li>
+                                    <li>YAML</li>
                                 </ul>
                                 <hr style={{margin:0}}></hr>
                                 <ul className='about-ul'>
@@ -75,6 +76,8 @@ function Main() {
                                     <li>Marshmallow</li>
                                     <li>Kubernetes </li>
                                     <li>Docker</li>
+                                    <li>Nginx-Ingress</li>
+                                    
                                 </ul>
                                 <hr style={{margin:0}}></hr>
                                 <ul className='about-ul'>
@@ -82,6 +85,7 @@ function Main() {
                                     <li>AWS</li>
                                     <li>MySQL</li>
                                     <li>MySQL Workbench </li>
+                                    <li>MongDB </li>
                                 </ul>
                             </div>
                             <h4>Social Media Links</h4>
