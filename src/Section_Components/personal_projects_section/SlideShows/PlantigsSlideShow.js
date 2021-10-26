@@ -63,6 +63,12 @@ function MyQuizzesSlideShow() {
                     <p className='post-intro-links'>
                         <a target='_blank' rel='noreferrer' href={project.github}>Github</a>
                     </p>
+                    <p className='post-intro-links'>
+                        <a target='_blank' rel='noreferrer' href={project.website}>Website</a>
+                    </p>
+                    <p className='post-intro-links'>
+                        Bypass the google chrome warning by clicking the browser window and type (thisisunsafe) to access the site.
+                    </p>
                 </div>
             </div>
         </div>

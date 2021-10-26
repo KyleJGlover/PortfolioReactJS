@@ -46,6 +46,7 @@ export const projectData = [
       image:[Plantings_Main, Plantings_Login, Plantings_SignUp, Plantings_Orders, Plantings_Payments, Plantings_Orders_Normal, Plantings_Create_Plant, Plantings_Display_Plant],
       title: "Plantings",
       description: "A simple e-commerce site that was developed using a microservice architecture. On the site a user you can sign up, sign in, and post any kind of plant for sale. The website supports a payment service run by the Stripe API. This website is running on a Kubernetes cluster with pods built using Docker containers and is hosted by digital ocean. This repository is connected to my account on digital ocean and will initiate an action whenever there is push/merge to the Master repository using GitHub actions. Built the entire site as a personal project",
-      github:"https://github.com/KyleJGlover/plantings_production"
+      github:"https://github.com/KyleJGlover/plantings_production",
+      website: "https://www.plantings.page/"
     }
   ];
