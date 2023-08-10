@@ -21,10 +21,15 @@ function Main() {
                             </p>
                             <h4>What I have Done</h4>                
                             <p>
-                                I have spent the last three years working in both clinical and pharmaceutical laboratories,
-                                learning, and performing solution prep and analyzing results. I have worked in large and small teams 
-                                giving me experience with working in a team environment. My proudest accomplishment was helping build the COVID testing 
-                                laboratory at Color as one of its most respected clinical laboratory associate II during one of the worst pandemics in my lifetime.
+                                I have spent the since 2019 learning as many software tools as possible. My first job as a 
+                                Software Engineer at Halo Labs was filled with many challenges as they are still 
+                                at the startup company. I had to be flexible with my duties and work on a range of 
+                                projects related to software. I worked with a team of engineers to develop and implement 
+                                full-stack applications for running and monitoring automated systems in a manufacturing environment 
+                                using C#/WinForms. Working with my team I improved the firmware for controlling our PCB running 
+                                our lab instrument systems using C. I even developed and implemented embedded systems such as Arduino to 
+                                automate control and monitoring of laboratory instruments using C++. I had an amazing time working with our 
+                                team as I learned how many tools to improve my ability to develop and architect software solutions.
                             </p> 
                             <h5>Why the Switch?</h5>                
                             <p>
@@ -53,39 +58,43 @@ function Main() {
                             <div id='skills'>    
                                 <ul className='about-ul'>
                                     <h6>Languages</h6>
-                                    <li>Java</li>
-                                    <li>JavaScript</li>
                                     <li>C#</li>
                                     <li>C++</li>
+                                    <li>C</li>
+                                    <li>Java</li>
+                                    <li>JavaScript</li>
+                                    <li>Python</li>
                                     <li>HTML</li>
                                     <li>PHP</li>
                                     <li>CSS</li>
-                                    <li>Python</li>
                                     <li>YAML</li>
                                 </ul>
                                 <hr style={{margin:0}}></hr>
                                 <ul className='about-ul'>
                                     <h6>Frameworks</h6>
+                                    <li>.Net</li>
+                                    <li>Git</li>
+                                    <li>Kubernetes </li>
+                                    <li>Docker</li>
                                     <li>Flask</li>
                                     <li>iOS</li>
                                     <li>React</li>
                                     <li>Node.js</li>
-                                    <li>Git</li>
                                     <li>REST API</li>
                                     <li>SQLAlchemy</li>
                                     <li>Marshmallow</li>
-                                    <li>Kubernetes </li>
-                                    <li>Docker</li>
                                     <li>Nginx-Ingress</li>
                                     
                                 </ul>
                                 <hr style={{margin:0}}></hr>
                                 <ul className='about-ul'>
                                     <h6>Database/Tools</h6>
+                                    <li>BitBuckets</li>
+                                    <li>SourceTree</li>
                                     <li>AWS</li>
                                     <li>MySQL</li>
                                     <li>MySQL Workbench </li>
-                                    <li>MongDB </li>
+                                    <li>MongoDB </li>
                                 </ul>
                             </div>
                             <h4>Social Media Links</h4>
