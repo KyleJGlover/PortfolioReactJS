@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.feb0de62.css",
-    "main.js": "/static/js/main.07a89341.js",
+    "main.js": "/static/js/main.1b1ccea0.js",
     "static/media/ProfilePicture.jpg": "/static/media/ProfilePicture.4ac5356467a714bda1b1.jpg",
     "static/media/Coffee_Break_CloserLook.pdf": "/static/media/Coffee_Break_CloserLook.c3d55ce294146ec2cb53.pdf",
     "static/media/Coffee_Break.pdf": "/static/media/Coffee_Break.a1f721a2c491c10c017e.pdf",
     "static/media/Plantings-Main.png": "/static/media/Plantings-Main.54dc0816b3fa076bb30c.png",
-    "static/media/Main.png": "/static/media/Main.4fe7d833e79ccc5b2f45.png",
     "static/media/Login_Registration_Coffee_Break.png": "/static/media/Login_Registration_Coffee_Break.2785b548a6c6a7d359cb.png",
     "static/media/MyQuizzes_CloserLook.pdf": "/static/media/MyQuizzes_CloserLook.ece0a69436dedc20dc18.pdf",
     "static/media/linkedin_icon.png": "/static/media/linkedin_icon.fca54110901eede05699.png",
@@ -15,24 +14,30 @@
     "static/media/DisplayPlant.jpeg": "/static/media/DisplayPlant.c8e68d6bd284a74a929b.jpeg",
     "static/media/Orders.jpeg": "/static/media/Orders.1d53f949dd1af1da3741.jpeg",
     "static/media/OrdersNormal.jpeg": "/static/media/OrdersNormal.7a72d71235118eaad0a1.jpeg",
+    "static/media/UserProfilePage.PNG": "/static/media/UserProfilePage.e6b3caf0d7fa485056d0.PNG",
     "static/media/Payment.jpeg": "/static/media/Payment.30e16b8508db1e283bad.jpeg",
     "static/media/Group_Order_Coffee_Order.png": "/static/media/Group_Order_Coffee_Order.1cc657a50358ef104e45.png",
     "static/media/Resume.pdf": "/static/media/Resume.12c34b19f9466182061e.pdf",
     "static/media/Drink_Selection_Coffee_Break.png": "/static/media/Drink_Selection_Coffee_Break.4e42de0327ca29b5c361.png",
     "static/media/CreatePlant.jpeg": "/static/media/CreatePlant.53c799fbc7334e6e0c3a.jpeg",
-    "static/media/Registration.png": "/static/media/Registration.73479a7da0996c6f741b.png",
     "static/media/Login.jpeg": "/static/media/Login.6adcf5be6a847ea9e180.jpeg",
     "static/media/SignUp.jpeg": "/static/media/SignUp.8b90d5e1d29902e33049.jpeg",
     "static/media/Order_Selection_Coffee_Break.png": "/static/media/Order_Selection_Coffee_Break.84af1c1cf3d2e15ff011.png",
-    "static/media/Login.png": "/static/media/Login.169cea33e351beba33f5.png",
+    "static/media/Dashboard.PNG": "/static/media/Dashboard.7db09f89234e66ff29ca.PNG",
+    "static/media/User_Profile.PNG": "/static/media/User_Profile.b5899927d8941af4ecd2.PNG",
     "static/media/facebook_icon.png": "/static/media/facebook_icon.02d5377c9024501d3991.png",
-    "static/media/Quiz.png": "/static/media/Quiz.6b4fb8dcab8cb4b15fa4.png",
+    "static/media/Non_Admin.PNG": "/static/media/Non_Admin.5948bc1f75e8528e1025.PNG",
+    "static/media/Customer_Registration.PNG": "/static/media/Customer_Registration.3a48df07518216c73cae.PNG",
+    "static/media/Registration.PNG": "/static/media/Registration.e0f4dcd364c47b494d2b.PNG",
+    "static/media/products.PNG": "/static/media/products.7e45f3005a50a396b8fc.PNG",
+    "static/media/Login.PNG": "/static/media/Login.0f8a48c40f05429a45f5.PNG",
+    "static/media/tags.PNG": "/static/media/tags.2ac29c61556d8f67cca0.PNG",
     "index.html": "/index.html",
     "main.feb0de62.css.map": "/static/css/main.feb0de62.css.map",
-    "main.07a89341.js.map": "/static/js/main.07a89341.js.map"
+    "main.1b1ccea0.js.map": "/static/js/main.1b1ccea0.js.map"
   },
   "entrypoints": [
     "static/css/main.feb0de62.css",
-    "static/js/main.07a89341.js"
+    "static/js/main.1b1ccea0.js"
   ]
 }
