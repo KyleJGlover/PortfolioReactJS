@@ -1,7 +1,7 @@
 import React from 'react';
 import './personalProjects.css';
 import CoffeeSlideshow from './SlideShows/CoffeeSlideshow';
-import MyQuizzesSlideShow from './SlideShows/MyQuizzesSlideShow';
+import DjangoDashboardSlideShow from './SlideShows/DjangoDashboardSlideShow';
 import PlantingsSlideShow from './SlideShows/PlantigsSlideShow';
 
 function Main() {
@@ -14,7 +14,7 @@ function Main() {
                     <h3 style={{textAlign: 'center'}}>Personal Project</h3>    
                     <div className='post-wrapper'> 
                         <CoffeeSlideshow />
-                        <MyQuizzesSlideShow />
+                        <DjangoDashboardSlideShow />
                         <PlantingsSlideShow />
                     </div>
                 </div>
