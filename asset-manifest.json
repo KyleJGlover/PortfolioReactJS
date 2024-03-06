@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.feb0de62.css",
-    "main.js": "/static/js/main.1b1ccea0.js",
+    "main.js": "/static/js/main.1db3e750.js",
     "static/media/ProfilePicture.jpg": "/static/media/ProfilePicture.4ac5356467a714bda1b1.jpg",
     "static/media/Coffee_Break_CloserLook.pdf": "/static/media/Coffee_Break_CloserLook.c3d55ce294146ec2cb53.pdf",
     "static/media/Coffee_Break.pdf": "/static/media/Coffee_Break.a1f721a2c491c10c017e.pdf",
     "static/media/Plantings-Main.png": "/static/media/Plantings-Main.54dc0816b3fa076bb30c.png",
     "static/media/Login_Registration_Coffee_Break.png": "/static/media/Login_Registration_Coffee_Break.2785b548a6c6a7d359cb.png",
     "static/media/MyQuizzes_CloserLook.pdf": "/static/media/MyQuizzes_CloserLook.ece0a69436dedc20dc18.pdf",
+    "static/media/Resume.docx": "/static/media/Resume.87305c7c6c7f1e97c903.docx",
     "static/media/linkedin_icon.png": "/static/media/linkedin_icon.fca54110901eede05699.png",
     "static/media/Mapping_Coffee_Break.png": "/static/media/Mapping_Coffee_Break.c371171a1e5295847659.png",
     "static/media/github_icon.png": "/static/media/github_icon.be02670c347e38a9b65b.png",
@@ -17,7 +18,6 @@
     "static/media/UserProfilePage.PNG": "/static/media/UserProfilePage.e6b3caf0d7fa485056d0.PNG",
     "static/media/Payment.jpeg": "/static/media/Payment.30e16b8508db1e283bad.jpeg",
     "static/media/Group_Order_Coffee_Order.png": "/static/media/Group_Order_Coffee_Order.1cc657a50358ef104e45.png",
-    "static/media/Resume.pdf": "/static/media/Resume.12c34b19f9466182061e.pdf",
     "static/media/Drink_Selection_Coffee_Break.png": "/static/media/Drink_Selection_Coffee_Break.4e42de0327ca29b5c361.png",
     "static/media/CreatePlant.jpeg": "/static/media/CreatePlant.53c799fbc7334e6e0c3a.jpeg",
     "static/media/Login.jpeg": "/static/media/Login.6adcf5be6a847ea9e180.jpeg",
@@ -34,10 +34,10 @@
     "static/media/tags.PNG": "/static/media/tags.2ac29c61556d8f67cca0.PNG",
     "index.html": "/index.html",
     "main.feb0de62.css.map": "/static/css/main.feb0de62.css.map",
-    "main.1b1ccea0.js.map": "/static/js/main.1b1ccea0.js.map"
+    "main.1db3e750.js.map": "/static/js/main.1db3e750.js.map"
   },
   "entrypoints": [
     "static/css/main.feb0de62.css",
-    "static/js/main.1b1ccea0.js"
+    "static/js/main.1db3e750.js"
   ]
 }
