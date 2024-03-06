@@ -1,5 +1,5 @@
 import profilePhoto from '../../images/ProfilePicture.jpg';
-import resume from '../../pdf_files/Resume.pdf';
+import resume from '../../pdf_files/Resume.docx';
 
     var theme = localStorage.getItem('theme')
 
