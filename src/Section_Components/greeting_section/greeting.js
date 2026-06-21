@@ -1,113 +1,159 @@
-import profilePhoto from '../../images/ProfilePicture.jpg';
-import resume from '../../pdf_files/Resume.docx';
+import profilePhoto from "../../images/ProfilePicture.jpg"
+import resume from "../../pdf_files/Resume.pdf"
+import "./greeter.css"
+import {
+  useEffect,
+  useState,
+} from "react"
 
-    var theme = localStorage.getItem('theme')
+function Greeter() {
+  const skills = [
+    "C#",
+    ".NET",
+    "React",
+    "Azure",
+    "SQL",
+    "ETL",
+    "REST APIs",
+  ]
 
-    if (theme === null){
-        changeColorScheme('light')
+  const themes = {
+    light: "default.css",
+    blue: "Color_Schemes/blue.css",
+    green: "Color_Schemes/green.css",
+    purple: "Color_Schemes/purple.css",
+  }
 
-    } else{
-        changeColorScheme(theme)
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") ||
+      "light",
+  )
+
+  useEffect(() => {
+    const stylesheet =
+      document.getElementById(
+        "theme-style",
+      )
+
+    if (!stylesheet) {
+      console.error(
+        "Theme stylesheet not found",
+      )
+      return
     }
 
+    stylesheet.href = themes[theme]
+    debugger
+    localStorage.setItem("theme", theme)
+  }, [theme])
 
-    function changeColorScheme(color){
-        if (color === 'light'){
+  return (
+    <section className='s1'>
+      <div className='container'>
+        <div className='hero'>
+          {/* Code Window */}
+          <div className='hero-card'>
+            <div className='window-header'>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
 
-            document.getElementById('theme-style').href = 'default.css'
-        }
-        if (color === 'blue'){
+            <div className='hero-content'>
+              <div className='hero-text'>
+                <p className='terminal-label'>
+                  Software Engineer
+                </p>
 
-            document.getElementById('theme-style').href = 'Color_Schemes/blue.css'
-        }
-        if (color === 'green'){
+                <h1>Kyle Glover</h1>
 
-            document.getElementById('theme-style').href = 'Color_Schemes/green.css'
-        }
-        if (color === 'purple'){
+                <h2>
+                  Building scalable
+                  applications, cloud
+                  services, and data
+                  platforms.
+                </h2>
 
-            document.getElementById('theme-style').href = 'Color_Schemes/purple.css'
-        }
-        localStorage.setItem('theme', color)
-    }
+                <p>
+                  Full-stack developer
+                  specializing in React,
+                  C#, Azure, APIs, and
+                  enterprise
+                  integrations.
+                </p>
 
-
-function Main() {
-
-    return (
-        <div className='section-one-container'>
-            <section className='s1'>
-                <div className='main-container'>
-                    
-                    <div className='intro-wrapper'>
-                        <div className='nav-wrapper'>
-                            <div className='dots-wrapper'>
-                                <div id='dot-1' className='browser-dot'></div>
-                                <div id='dot-2' className='browser-dot'></div>
-                                <div id='dot-3' className='browser-dot'></div>
-                            </div>
-                            <ul id='navigation'>
-                                <li><a target='_blank' rel='noreferrer' href={resume}>Download Resume</a></li>
-                            </ul>
-
-                        </div>
-                        
-                        <div className='greeting-wrapper'>
-                            <h1>Hi, I'm Kyle Glover</h1>
-                        </div>
-                        <div className='left-column'>
-                            <img id='profile_pic' alt='' src={profilePhoto}></img>
-                            <h5 style={{ textAlign: 'center', lineHeight: 0}}>Personalized Theme</h5>
-
-                            <div id='theme-options-wrapper'>
-                                <button 
-                                    onClick= {() => changeColorScheme('light')}
-                                    id='light-mode' 
-                                    className='theme-dot'>
-                                </button>
-
-                                <button 
-                                    onClick= {() => changeColorScheme('blue')}
-                                    id='blue-mode' 
-                                    className='theme-dot'>    
-                                </button>
-
-                                <button 
-                                    onClick= {() => changeColorScheme('green')}
-                                    value='green' 
-                                    id='green-mode' 
-                                    className='theme-dot'>
-                                </button>
-
-                                <button
-                                    onClick= {() => changeColorScheme('purple')}  
-                                    id='purple-mode' 
-                                    className='theme-dot'>
-                                </button>
-
-                            </div>
-
-                            <p id='settings-note'>*Theme settings will be saved for <br></br>your next visit</p>
-                        </div>
-
-                        <div className='right-column'>
-
-                            <div id='preview-shadow'>
-                                <div id='preview'>
-                                    <div id='corner-tl' className='corner'></div>
-                                    <div id='corner-tr' className='corner'></div>
-                                    <h3>Current Activities</h3>
-                                    <p>I am activily looking for new oppurtunities as a Software Engineer!</p>
-                                    <div id='corner-bl' className='corner'></div>
-                                    <div id='corner-br' className='corner'></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className='skill-container'>
+                  {skills.map(
+                    (skill) => (
+                      <span
+                        key={skill}
+                        className='skill-pill'
+                      >
+                        {skill}
+                      </span>
+                    ),
+                  )}
                 </div>
-            </section>
+
+                <div className='hero-actions'>
+                  <a
+                    href={resume}
+                    target='_blank'
+                    rel='noreferrer'
+                    className='primary-btn'
+                  >
+                    Resume
+                  </a>
+
+                  <a
+                    href='https://github.com/KyleJGlover'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='secondary-btn'
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+
+              <div className='hero-image'>
+                <div className='status'>
+                  <span className='status-dot'></span>
+                  Open to opportunities
+                </div>
+
+                <img
+                  src={profilePhoto}
+                  alt='Kyle Glover'
+                />
+                <div className='theme-controls'>
+                  <p>Customize Theme</p>
+
+                  <div className='theme-options'>
+                    {Object.keys(
+                      themes,
+                    ).map((option) => (
+                      <button
+                        className={`theme-dot ${option}`}
+                        onClick={() => {
+                          console.log(
+                            option,
+                          )
+                          setTheme(
+                            option,
+                          )
+                        }}
+                      ></button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    </section>
+  )
 }
 
-export default Main
+export default Greeter

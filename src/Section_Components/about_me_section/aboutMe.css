@@ -1,0 +1,39 @@
+.skill-selector {
+  background: var(--secondaryColor);
+
+  padding: 25px;
+
+  border: 1px solid var(--borderColor);
+
+  border-radius: 15px;
+}
+
+.skill-options {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 15px;
+}
+
+.skill-options label {
+  cursor: pointer;
+}
+
+.skill-options input {
+  margin-right: 10px;
+}
+
+.selected-skills {
+  margin-top: 25px;
+
+  padding: 20px;
+
+  background: var(--previewBackground);
+
+  border-radius: 12px;
+}
+
+.selected-skills li {
+  margin-bottom: 8px;
+}
