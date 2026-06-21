@@ -6,45 +6,154 @@ import "./aboutMe.css"
 
 function Main() {
   const skillGroups = {
-    "Frontend Development": [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "SCSS",
-    ],
-
     "Backend Development": [
-      "C#",
-      ".NET",
-      "REST APIs",
-      "Microservices",
-      "Authentication",
-      "API Design",
+      {
+        name: "REST APIs",
+        source: "Pet Food Express",
+        technologies: "C#, .NET",
+        description:
+          "Designed and deployed RESTful APIs for internal applications and third-party integrations hosted on Azure App Services.",
+      },
+      {
+        name: "Microservices",
+        source: "Pet Food Express",
+        technologies: "C#, .NET",
+        description:
+          "Built cloud-native services supporting authentication, business workflows, and partner integrations.",
+      },
+      {
+        name: "Authentication & Authorization",
+        source: "Pet Food Express",
+        technologies: "C#, .NET",
+        description:
+          "Implemented Microsoft Entra ID authentication and role-based access control for internal applications.",
+      },
     ],
 
     "Cloud & DevOps": [
-      "Azure",
-      "Azure DevOps",
-      "CI/CD Pipelines",
-      "Docker",
-      "Kubernetes",
+      {
+        name: "Azure App Services",
+        source: "Pet Food Express",
+        technologies: "Azure, C#, .NET",
+        description:
+          "Hosted and maintained cloud-native APIs and application services supporting internal tools and third-party integrations.",
+      },
+      {
+        name: "Microsoft Entra ID",
+        source: "Pet Food Express",
+        technologies: "Azure, C#, .NET",
+        description:
+          "Implemented cloud-based authentication and role-based authorization for internal applications.",
+      },
+      {
+        name: "Azure DevOps",
+        source: "Pet Food Express",
+        technologies: "Microsoft, Git",
+        description:
+          "Developed CI/CD pipelines to automate deployments, versioning, and rollback procedures for APIs and application services.",
+      },
+      {
+        name: "Cloud Integrations",
+        source: "Pet Food Express",
+        technologies:
+          "Azure, REST APIs, SFTP",
+        description:
+          "Built and maintained integrations connecting internal systems with Amazon, DoorDash, Instacart, and other external partners.",
+      },
+      {
+        name: "Docker",
+        source: "Pet Food Express",
+        technologies: "Docker",
+        description:
+          "Created containerized development environments and explored microservice-based application architectures.",
+      },
+      {
+        name: "Kubernetes",
+        source: "Pet Food Express",
+        technologies:
+          "Kubernetes, Docker",
+        description:
+          "Implemented container orchestration concepts including service deployment, scaling, and workload management.",
+      },
     ],
-
+    "Frontend Development": [
+      {
+        name: "React Applications",
+        source: "Pet Food Express",
+        technologies: "JavaScript, JSX",
+        description:
+          "Developed and maintained headless e-commerce experiences and reusable UI components.",
+      },
+      {
+        name: "BigCommerce Stencil Themes",
+        source: "Pet Food Express",
+        technologies:
+          "JavaScript, Handlebars, HTML, SCSS",
+        description:
+          "Customized storefront templates and customer-facing shopping experiences.",
+      },
+      {
+        name: "Storefront Integrations",
+        source: "Pet Food Express",
+        technologies: "JavaScript",
+        description:
+          "Implemented frontend integrations with internal and third-party services.",
+      },
+      {
+        name: "WinForms",
+        source: "Halo Labs",
+        technologies: "C#, .NET",
+        description:
+          "Full-stack manufacturing desktop applications",
+      },
+    ],
     "Data Engineering": [
-      "SQL",
-      "ETL Pipelines",
-      "Data Integration",
-      "SFTP Automation",
-      "Data Validation",
+      {
+        name: "Azure Data Factory Pipelines",
+        source: "Pet Food Express",
+        technologies: "SQL, JSON",
+        description:
+          "Developed ETL pipelines automating data exchange with Amazon, DoorDash, Instacart, and other retail partners.",
+      },
+      {
+        name: "Microsoft Fabric Notebooks",
+        source: "Pet Food Express",
+        technologies:
+          "Python, Pandas, PySpark",
+        description:
+          "Built notebook-based ETL processes to transform operational data and load it into Dataverse.",
+      },
+      {
+        name: "Dataverse Integration",
+        source: "Pet Food Express",
+        technologies: "Python, SQL",
+        description:
+          "Supported business applications through automated ingestion and transformation of enterprise data.",
+      },
     ],
 
     "Embedded Systems": [
-      "C++",
-      "C",
-      "Firmware",
-      "OpenCV",
-      "Hardware Integration",
+      {
+        name: "Firmware Development",
+        source: "Halo Labs",
+        technologies: "C",
+        description:
+          "Enhanced firmware for laboratory instrumentation and implemented hardware communication features.",
+      },
+      {
+        name: "Instrument Automation",
+        source: "Halo Labs",
+        technologies: "C++",
+        description:
+          "Developed software for automated laboratory systems and instrument control.",
+      },
+      {
+        name: "Computer Vision",
+        source: "Halo Labs",
+        technologies: "C++, OpenCV",
+        description:
+          "Implemented image-processing features to improve data quality and analytical accuracy.",
+      },
     ],
   }
 
@@ -228,29 +337,55 @@ function Main() {
                         <div
                           key={group}
                         >
-                          <h6>
+                          <hr></hr>
+                          <h5>
                             {group}
-                          </h6>
+                          </h5>
 
-                          <ul>
-                            {skillGroups[
-                              group
-                            ].map(
-                              (
-                                skill,
-                              ) => (
-                                <li
-                                  key={
-                                    skill
-                                  }
-                                >
+                          {skillGroups[
+                            group
+                          ].map(
+                            (skill) => (
+                              <div
+                                className='skill-card'
+                                key={
+                                  skill.name +
+                                  skill.source
+                                }
+                              >
+                                <p>
                                   {
-                                    skill
+                                    skill.name
                                   }
-                                </li>
-                              ),
-                            )}
-                          </ul>
+                                </p>
+
+                                <p>
+                                  <strong>
+                                    Used
+                                    at:
+                                  </strong>{" "}
+                                  {
+                                    skill.source
+                                  }
+                                </p>
+                                <p>
+                                  <strong>
+                                    Technologies
+                                    Used
+                                  </strong>{" "}
+                                  {
+                                    skill.technologies
+                                  }
+                                </p>
+
+                                <p>
+                                  {
+                                    skill.description
+                                  }
+                                </p>
+                              </div>
+                            ),
+                          )}
                         </div>
                       ),
                     )

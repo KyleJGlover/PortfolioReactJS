@@ -37,3 +37,19 @@
 .selected-skills li {
   margin-bottom: 8px;
 }
+
+.skill-card {
+  padding: 15px;
+
+  margin-bottom: 15px;
+
+  background: var(--secondaryColor);
+
+  border-left: 4px solid var(--accent);
+
+  border-radius: 8px;
+}
+
+.skill-card h6 {
+  margin-bottom: 5px;
+}
